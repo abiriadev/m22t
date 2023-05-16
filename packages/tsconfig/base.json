@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Default",
+	"compilerOptions": {
+		// "incremental": true,
+		"esModuleInterop": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"declarationMap": false,
+		// "outDir": "dist",
+		"noFallthroughCasesInSwitch": true,
+
+		"composite": false,
+		"declaration": true,
+		// "declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"strict": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["src"]
+}
